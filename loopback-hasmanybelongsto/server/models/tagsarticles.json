@@ -1,0 +1,22 @@
+{
+  "name": "tagsarticles",
+  "base": "Model",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "articlesId": {
+      "type": "number",
+      "required": true
+    },
+    "tagsId": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

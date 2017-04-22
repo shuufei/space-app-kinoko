@@ -1,0 +1,22 @@
+{
+  "name": "tagsarticles",
+  "plural": "tagsarticles",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "artilcesId": {
+      "type": "number"
+    },
+    "tagsId": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {
+  },
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,27 @@
+{
+  "name": "articles",
+  "plural": "articles",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "title": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "tags": {
+      "type": "hasAndBelongsToMany",
+      "model": "tags"
+    },
+    "authors": {
+      "type": "belongsTo",
+      "model": "authors"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
